@@ -1,0 +1,62 @@
+.cardComp{
+    width: 100%;
+    background-color: #427fda;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.actionCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: Roboto-Regular;
+}
+
+.actionCards svg{
+    vertical-align: middle;
+    width: 17px;
+}
+
+.actionCards span{
+    margin-left: 3px;
+}
+
+.actionCard{
+    margin-right: 7px;
+}
+
+.Stars{
+    margin-top: 10px;
+}
+
+
+.cardComp h2{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    font-family: Gilroy-Medium;
+}
+
+.cardComp h5{
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Roboto-Regular;
+}
+
+.operatinMode{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 12px;
+}
+
+.operatinMode svg{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+

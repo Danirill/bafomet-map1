@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+    .inner{
+        display: block !important;
+    }
+  }
+
+.inner{
+    background: #FFFFFF;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 28px 16px;
+    
+}
+
+.items{
+    display: flex;
+    flex-flow: column nowrap;
+}

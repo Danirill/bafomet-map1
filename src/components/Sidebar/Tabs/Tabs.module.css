@@ -1,0 +1,93 @@
+.address{
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 10px;
+    font-family: Roboto-Regular;
+    color: black;
+}
+
+.taxiBlock{
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #5092F5;
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 0;
+    padding-top: 2px;
+}
+
+.taxiBlock h5{
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+.taxiBlock h3{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    font-family: Gilroy-Bold;
+}
+
+.taxiBlock h3 span{
+    color: #3B57EA;
+}
+
+.textTaxi{
+    opacity: 0.4;
+    position: relative;  
+}
+
+.netAndNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.netAndNumber svg{
+    vertical-align: middle;
+}
+
+.textTaxi:before {
+    border-bottom: 2px solid red;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    transform: rotate(-7deg);
+}
+
+.titleBlock{
+    font-size: 14px;
+    line-height: 16px;
+    color: #929292;
+    font-family: Roboto-Regular;
+}
+
+.paddingBlock{
+    padding: 8px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto-Regular;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.paddingBlock span{
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 5px;
+    
+}
+
+.paddingBlock svg{
+    vertical-align: middle;
+}
+
+.paddingBlock img{
+    vertical-align: middle;
+}

@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+  .content{
+      display: block !important;
+      width: 400px; 
+      background-color: #fff;
+  }
+  
+}
+
+.hide{
+    display: none;
+}
+
+.Sidebar{
+    padding: 0 15px;
+    padding-top: 40px;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+}
+
+.content div{
+    margin-right: 5px;
+    
+}
+
+.content div:last-child{
+    margin-right: 0;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.filtersIcoAndText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.fitersImg{
+    width: 24px;
+    height: 17px;
+    margin-right: 14px;
+}
+
+.fitlersText{
+    font-size: 18px;
+    color: #0F30DE;
+}
